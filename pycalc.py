@@ -23,12 +23,12 @@ op2 = float(sys.argv[3])
 
 
 if operrande == '+':
-    print(addition(op1,op2))
+    print("Le Résultat est :" ,addition(op1,op2))
 elif operrande == "/":
-    print(divisions(op1,op2))
+    print("Le Résultat est :" ,divisions(op1,op2))
 elif operrande == '-':
-    print(soustraction(op1,op2))
+    print("Le Résultat est :" ,soustraction(op1,op2))
 elif operrande == "*":
-    print(multiplication(op1,op2))
+    print("Le Résultat est :" ,multiplication(op1,op2))
 else:
     print("Erreur Opperande")
