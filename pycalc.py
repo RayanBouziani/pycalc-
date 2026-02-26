@@ -9,6 +9,13 @@ def addition(a,b):
     resul = a + b
     return resul
 
+def soustraction(a,b):
+    resul = a - b
+    return resul
+
+def multiplication(a,b):
+    resul = a*b
+    return resul
 
 op1 = float(sys.argv[1])
 operrande = sys.argv[2]
