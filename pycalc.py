@@ -1,6 +1,5 @@
 import sys
 
-
 def divisions(a,b):
     resul = a/b 
     return resul
@@ -13,8 +12,8 @@ def soustraction(a,b):
     resul = a - b
     return resul
 
-def multiplication(a,b):
-    resul = a*b
+def multiplication(a, b):
+    resul = a *b
     return resul
 
 op1 = float(sys.argv[1])
